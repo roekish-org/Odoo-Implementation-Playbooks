@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (for any future reference modules)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local secrets — never commit
+.env
+.env.local
+*.pem
+*.key
+credentials*.json
