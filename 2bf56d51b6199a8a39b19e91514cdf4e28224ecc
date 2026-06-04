@@ -1,0 +1,21 @@
+migrations/sage-to-odoo-migration-checklist.md
+  s_4a09152283f421::t_65701919f81257 1-264
+accounting/standard-accounting-setup.md
+  s_4a09152283f421::t_7027582b7c2716 1-326
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "2bf56d51b6199a8a39b19e91514cdf4e28224ecc",
+  "prompts": {},
+  "sessions": {
+    "s_4a09152283f421": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "851bba91-8519-4397-a419-77bb9e5e5bac",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Roekish CTO <hello@roekish.com>"
+    }
+  }
+}

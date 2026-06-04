@@ -1,0 +1,21 @@
+LICENSE
+  s_4a09152283f421::t_e7436f760eb01d 1-21
+README.md
+  s_4a09152283f421::t_316170b6adc9b1 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "91f00749bc1d9617a709e5f0f74dabca6fdc1f57",
+  "prompts": {},
+  "sessions": {
+    "s_4a09152283f421": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "851bba91-8519-4397-a419-77bb9e5e5bac",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Roekish CTO <hello@roekish.com>"
+    }
+  }
+}

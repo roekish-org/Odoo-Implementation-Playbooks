@@ -1,0 +1,19 @@
+inventory/standard-inventory-setup.md
+  s_4a09152283f421::t_130b3e42f73e1d 1-289
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "2820fa02fdd539247c2db96b6613dc304bbf71dd",
+  "prompts": {},
+  "sessions": {
+    "s_4a09152283f421": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "851bba91-8519-4397-a419-77bb9e5e5bac",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Roekish CTO <hello@roekish.com>"
+    }
+  }
+}
