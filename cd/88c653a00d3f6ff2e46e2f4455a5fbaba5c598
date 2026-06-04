@@ -1,0 +1,27 @@
+LICENSE
+  s_71dffeb6527f67::t_a268afb656c22c 1-21
+CODE_OF_CONDUCT.md
+  s_71dffeb6527f67::t_1a87de7f92ff07 1-18
+README.md
+  s_71dffeb6527f67::t_dffd264ee128e8 1-90
+.gitignore
+  s_71dffeb6527f67::t_19fc3ee10f5e48 1-22
+templates/discovery-questionnaire.md
+  s_71dffeb6527f67::t_743d080c006445 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "cd88c653a00d3f6ff2e46e2f4455a5fbaba5c598",
+  "prompts": {},
+  "sessions": {
+    "s_71dffeb6527f67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7190ecc7-493c-41e8-aece-5745480c86de",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Roekish CTO (Paperclip) <noreply@paperclip.ing>"
+    }
+  }
+}
