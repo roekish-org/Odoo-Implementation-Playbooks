@@ -1,0 +1,19 @@
+inventory/README.md
+  s_71dffeb6527f67::t_cabe1e650ce32f 1-377
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "5018b763a94d6fbe586fb4fabede6929be636ff3",
+  "prompts": {},
+  "sessions": {
+    "s_71dffeb6527f67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7190ecc7-493c-41e8-aece-5745480c86de",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Roekish CTO (Paperclip) <noreply@paperclip.ing>"
+    }
+  }
+}
