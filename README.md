@@ -4,6 +4,8 @@
 [![Odoo 17 + 18](https://img.shields.io/badge/Odoo-17%20%7C%2018-714B67)](#)
 [![Region: EU / France](https://img.shields.io/badge/Region-EU%20%2F%20France-blue)](#)
 
+> **Note:** This repo is published from the maintainer's personal GitHub account during initial launch. It will be transferred to `github.com/roekish` shortly. GitHub auto-redirects from the old URL.
+
 > Open-source implementation playbooks for **Odoo Community & Enterprise**, written by [Roekish](https://roekish.com) — a France/EU-based Odoo implementation agency.
 
 ## What this repo is
