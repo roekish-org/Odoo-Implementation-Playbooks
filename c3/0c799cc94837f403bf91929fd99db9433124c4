@@ -1,0 +1,19 @@
+migrations/sage-to-odoo.md
+  s_71dffeb6527f67::t_15b648bd996f50 1-312
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "c30c799cc94837f403bf91929fd99db9433124c4",
+  "prompts": {},
+  "sessions": {
+    "s_71dffeb6527f67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7190ecc7-493c-41e8-aece-5745480c86de",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Roekish CTO (Paperclip) <noreply@paperclip.ing>"
+    }
+  }
+}
