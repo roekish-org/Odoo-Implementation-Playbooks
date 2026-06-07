@@ -1,7 +1,7 @@
 # Self-Hosted Odoo on Docker — Dev → Staging → Production
 
 > A reproducible, Dockerised Odoo stack you can stand up in minutes and grow into a real
-> staging/production deployment. Pinned **Odoo 18.0** + **PostgreSQL 16**.
+> staging/production deployment. Pinned **Odoo 19.0** (current stable) + **PostgreSQL 16**.
 > This is the exact shape of the stack Roekish uses internally — published so you can run it yourself.
 
 **Region note (France / EU):** for production, host in an EU datacenter (or use Odoo.sh EU region)
@@ -9,7 +9,7 @@ to keep customer data inside the EU. GDPR notes are flagged inline as **🇪🇺
 
 | | |
 |---|---|
-| Odoo version | 18.0 (works on 17.0 — change the image tag) |
+| Odoo version | 19.0 (current stable; works on 18.0 / 17.0 — change the image tag) |
 | Database | PostgreSQL 16 |
 | Effort (dev stack) | ~30 minutes |
 | Effort (hardened staging) | ~half a day |
@@ -46,7 +46,7 @@ __pycache__/
 ## 2. The compose file
 
 ```yaml
-# docker-compose.yml — Odoo 18 + PostgreSQL 16
+# docker-compose.yml — Odoo 19 + PostgreSQL 16
 services:
   db:
     image: postgres:16
@@ -66,7 +66,7 @@ services:
     restart: unless-stopped
 
   odoo:
-    image: odoo:18.0
+    image: odoo:19.0          # current stable; pin to 18.0 / 17.0 if your project targets those
     container_name: ${COMPOSE_PROJECT_NAME:-odoo-dev}-odoo
     depends_on:
       db:
@@ -243,7 +243,7 @@ docker compose exec -T db pg_restore -U "$POSTGRES_USER" -d <db>_restore < backu
 ## 7. Upgrading Odoo versions
 
 1. Snapshot DB + filestore (section 6) and **test the restore**.
-2. Bump the image tag (`odoo:18.0` → `odoo:19.0`) on a **copy** of production data.
+2. Bump the image tag (e.g. `odoo:18.0` → `odoo:19.0`) on a **copy** of production data.
 3. Run the standard upgrade against the copy; review the upgrade log for deprecations.
 4. Re-run UAT (see [`../templates/uat-sign-off.md`](../templates/uat-sign-off.md)) before promoting.
 

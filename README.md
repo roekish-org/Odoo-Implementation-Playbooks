@@ -1,7 +1,7 @@
 # Odoo Implementation Playbooks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Odoo 17 + 18](https://img.shields.io/badge/Odoo-17%20%7C%2018-714B67)](#)
+[![Odoo 17 | 18 | 19](https://img.shields.io/badge/Odoo-17%20%7C%2018%20%7C%2019-714B67)](#)
 [![Region: EU / France](https://img.shields.io/badge/Region-EU%20%2F%20France-blue)](#)
 
 > Open-source implementation playbooks for **Odoo Community & Enterprise**, written by [Roekish](https://roekish.com) — a France/EU-based Odoo implementation agency.
@@ -45,7 +45,7 @@ Hours and prices reflect typical French-SMB scope. They are **anchors, not quote
 
 | Type | Resource | What it covers |
 |---|---|---|
-| Setup | [Self-Hosted Odoo on Docker](./setup/self-hosted-docker.md) | Reproducible dev stack (Odoo 18 + PG 16), then hardening to staging/production: TLS, workers, backups, upgrades. |
+| Setup | [Self-Hosted Odoo on Docker](./setup/self-hosted-docker.md) | Reproducible dev stack (Odoo 19 + PG 16; tag-swappable to 17/18), then hardening to staging/production: TLS, workers, backups, upgrades. |
 | Template | [Discovery questionnaire](./templates/discovery-questionnaire.md) | Scoping questions to run before any project. |
 | Template | [UAT sign-off](./templates/uat-sign-off.md) | User-acceptance test plan + business-owner sign-off. |
 | Template | [Go-live checklist](./templates/go-live-checklist.md) | The final gate before production, with a rollback plan. |
@@ -55,10 +55,10 @@ Hours and prices reflect typical French-SMB scope. They are **anchors, not quote
 | Item | Value |
 |---|---|
 | Odoo Community / Enterprise | Both supported; differences flagged inline |
-| Validated versions | Odoo 17.0 and Odoo 18.0 |
+| Validated versions | Odoo 17.0, 18.0 and 19.0 — **19.0 is the current stable and our default for new projects** |
 | Region | France / EU (GDPR-compliant) |
 | Hosting recommendation | Odoo.sh EU region, or self-hosted in an EU datacenter |
-| Last reviewed | 2026-06-04 |
+| Last reviewed | 2026-06-07 |
 
 ## Repo layout
 

@@ -7,7 +7,7 @@
 | Field | Value |
 |---|---|
 | Project | _e.g. ACME — Standard Inventory + FR Accounting_ |
-| Odoo version | _17.0 / 18.0_ |
+| Odoo version | _19.0 / 18.0 / 17.0_ |
 | Environment tested | _staging URL_ |
 | UAT period | _start → end_ |
 | Business owner (signs off) | _name, role_ |

@@ -6,7 +6,7 @@
 |---|---|
 | Playbook version | v1 — 2026-06-04 (outline) |
 | Source systems supported | Sage 100, Sage 50, Sage 50cloud, Sage Compta (others by analogy) |
-| Target | Odoo 17.0 or 18.0 (Enterprise recommended for FEC + audit trail) |
+| Target | Odoo 19.0 (current stable, recommended) — also 18.0 / 17.0; Enterprise recommended for FEC + audit trail |
 | Region | France / EU |
 | Effort range | 40–120 hours depending on data volume, ledger complexity, and number of years migrated |
 | Audience | Roekish team or in-house IT/finance running a Sage → Odoo cutover |

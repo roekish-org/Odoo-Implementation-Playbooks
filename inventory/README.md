@@ -6,7 +6,7 @@
 |---|---|
 | Playbook version | v1 — 2026-06-04 |
 | Odoo edition | Community **or** Enterprise (differences flagged inline) |
-| Validated versions | Odoo 17.0, Odoo 18.0 |
+| Validated versions | Odoo 17.0, 18.0, 19.0 (19.0 = current stable, default for new projects) |
 | Region | France / EU |
 | Effort anchor | **85 hours** |
 | Price anchor | **€5,950** (Roekish standard rate) |
@@ -375,3 +375,4 @@ What you get:
 ## Changelog
 
 - **2026-06-04 — v1**: initial publication. Validated against Odoo 17.0 and 18.0 demo environments.
+- **2026-06-07 — v1.1**: added Odoo 19.0 (current stable) to validated versions — now the default for new projects. Menu paths and fields are unchanged on 19.0; version-specific differences are flagged inline.

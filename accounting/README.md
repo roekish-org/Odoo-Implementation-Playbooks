@@ -6,7 +6,7 @@
 |---|---|
 | Playbook version | v1 — 2026-06-04 |
 | Odoo edition | **Enterprise recommended** (Accounting app is Enterprise-only). Community has *Invoicing* but not full Accounting. |
-| Validated versions | Odoo 17.0, Odoo 18.0 |
+| Validated versions | Odoo 17.0, 18.0, 19.0 (19.0 = current stable, default for new projects) |
 | Region | France (FR localization + PCG 2014) |
 | Effort anchor | **36 hours** |
 | Price anchor | **€2,520** (Roekish standard rate) |
@@ -406,3 +406,4 @@ What you get:
 ## Changelog
 
 - **2026-06-04 — v1**: initial publication. Validated against Odoo 17.0 and 18.0 with `l10n_fr` modules.
+- **2026-06-07 — v1.1**: added Odoo 19.0 to validated versions. 19.0 is the current stable and our default for new French engagements — it carries the most current `l10n_fr` / Factur-X e-invoicing foundations for the French reform. Menu paths and fields below are unchanged on 19.0; version-specific differences are flagged inline.
