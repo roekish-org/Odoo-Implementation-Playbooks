@@ -41,6 +41,15 @@ Most Odoo implementation knowledge lives inside agencies. We're making ours publ
 
 Hours and prices reflect typical French-SMB scope. They are **anchors, not quotes** — your project is scoped during discovery.
 
+## Guides & templates (free)
+
+| Type | Resource | What it covers |
+|---|---|---|
+| Setup | [Self-Hosted Odoo on Docker](./setup/self-hosted-docker.md) | Reproducible dev stack (Odoo 18 + PG 16), then hardening to staging/production: TLS, workers, backups, upgrades. |
+| Template | [Discovery questionnaire](./templates/discovery-questionnaire.md) | Scoping questions to run before any project. |
+| Template | [UAT sign-off](./templates/uat-sign-off.md) | User-acceptance test plan + business-owner sign-off. |
+| Template | [Go-live checklist](./templates/go-live-checklist.md) | The final gate before production, with a rollback plan. |
+
 ## Odoo version & region
 
 | Item | Value |
@@ -57,7 +66,8 @@ Hours and prices reflect typical French-SMB scope. They are **anchors, not quote
 inventory/         # Standard Inventory Setup playbook
 accounting/        # Standard Accounting Setup (FR) playbook
 migrations/        # Migration runbooks (Sage → Odoo, more to follow)
-templates/         # Reusable templates (discovery questionnaire, UAT, etc.)
+setup/             # Environment guides (self-hosted Docker dev → prod)
+templates/         # Reusable templates (discovery, UAT sign-off, go-live)
 ```
 
 ## How to use
